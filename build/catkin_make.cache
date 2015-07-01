@@ -1,0 +1,2 @@
+beginner_tutorials:bt2:learning_tf:master_project:my_pcl_tutorial:pcl_ros_tutorial:robot_setup_tf:testbot_description
+-DCATKIN_DEVEL_PREFIX=/home/cipa/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cipa/catkin_ws/install -G Unix Makefiles

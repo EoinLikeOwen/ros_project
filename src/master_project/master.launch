@@ -1,0 +1,11 @@
+<launch>
+	<node type="tf_broadcaster" pkg="robot_setup_tf" name="tf_broadcaster">
+	</node>
+	<node type="LaserScanPublisher" pkg="master_project" name="Scan">
+	</node>
+	<node type="odometry_publisher" pkg="robot_setup_tf" name="odom">
+	</node>
+<!--	<node type="laser_scan_assembler" pkg="laser_assembler" name="assembler">
+		<param name="fixed_frame" type="string" value="odem"/>
+	</node>-->
+</launch>
